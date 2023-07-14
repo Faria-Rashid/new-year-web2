@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+}
+.banner-img{
+    background-image: url(../images/banner/banner3.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 700px;
+
+}
+.banner-text{
+ text-align: right;
+ padding: 200px 120px ;
+ word-spacing: 10px;
+ /* text-indent: 10px; */
+ 
+}
+.first-text{
+    font-size: 60px;
+    font: weight 900px;
+    color: aliceblue;
+    font-family: font-family: 'Satisfy', cursive;
+   
+    
+}
+.banner-des{
+    color: aliceblue;
+    font-size: small;
+   padding-top: 10px;
+}
+
+.banner-btn{
+   margin-top: 10px;
+   padding: 10px 10px;
+   color: rgb(53, 83, 184);
+   font-weight: 200px;
+   font-size: medium;
+   border-radius: 5px;
+
+}
+
+
+/* main section */
+.main{
+    display: flex;
+    
+}
+.main-img{
+     background-image: url(../images/person.png);
+     /* background-image: url(../images/banner/banner3.png) ; */
+     background-size: contain;
+     background-repeat: no-repeat;
+     height: 480px;
+    margin: 40px 100px 100px 160px;}
+
+
+    .main-head{
+        /* font-size: 60px;
+        font: weight 100px; */
+        color: rgb(7, 10, 12);
+        font-family: font-family: 'Satisfy', cursive;
+       
+    }
+    
+
+.main-text{
+         text-align: right;
+       /* padding: 200px 120px ; */
+       padding: 30px 200px 100px 300px;
+      word-spacing: 10px;
+       margin: 120px 120px; */
+   /* margin: 5px 200px 100px 300px;
+} */
+}
+.main-des{
+    color: rgb(57, 66, 74);
+    font-size: small;
+   padding-top: 10px;
+}
+.last-head{
+    padding-top: 100px;
+    margin-right: 180px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.last-container{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+}
+.last-last{
+    background-image: url(../images/watch.png), url(../images/gradient3.png);
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+}
